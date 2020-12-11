@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box 
+}
+body{
+   background-color:#F3f3F3 
+}
+.fullwrap{
+  width:100%;
+  height:auto; 
+}
+.wrap{
+  width:100%;
+  height:auto; 
+}
+.header_section{
+  //background-color:47B2DC;
+   
+}
+.menu_and_logo_cont{
+// border:1px solid red;
+ display:flex;
+ background-color:rgb(71,178,220);
+ align-items:center;
+ justify-content:space-between;
+}
+.menu_section{
+
+ //background-color:#F9F9F9 ;
+  float:left;
+  display:block;
+  //border:1px solid green;
+}
+.menu_section ul{
+  list-style-type:none;
+  display:block;
+ // border:1px solid #111;
+}
+.menu_section ul li{
+  display:inline-block; 
+}
+.menu_section ul li a{
+text-decoration:none;
+  padding:16px 20px;
+  display:block;
+  font-size:17px;
+  color:#fff;
+ font-family: 'Open Sans', sans-serif
+}
+.menu_section ul li a:hover{
+  background-color:#DDD;
+  color:#111;
+}
+.search_form input{
+  padding:15 20;
+   border-radius:2px;
+  border:2.5px solid;
+  border-color:rgba(71,178,220,.2);
+  background-image:url("");
+  margin-right:16px; 
+}
+.slider_img_section{
+  padding:20 100px 
+}
+.mainimg_container{
+  width:100%;
+  height:450px;
+  margin:0 auto; 
+ // opacity:.85;
+  //border:1px solid;
+  margin-top:0;
+  padding:5px 5px;;
+  background-color:#fff 
+}
+
+.mainimg_fullconatainer{
+  width:100%px;
+  margin:auto;
+  position:relative;
+  
+
+}
+.img_cover{
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,.1);
+  position:absolute;
+  top:0;
+  display:none; 
+  
+}
+.img_cover h1{
+  color:#fff;
+  font-size:40;
+  padding:200;
+  text-shadow:3px 3px 5px rgba(0,0,0,.5)
+}
+.table_desc_cont{
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr; 
+  width:100%px;
+ // background-color:#fff;
+  padding:0 100px 
+}
+.table_desc_box{
+  padding:50 20;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+ border:1px solid #ccc;
+  margin:15px 10px;
+  border-radius:2px;
+  grid-column:span 1;
+  background-color:#fff;
+  
+    box-shadow: 0 0 2px #DDD;
+}
+.table_desc_box h3{
+  padding:10px;
+  font-size:50px;
+  color:47B2DC;
+}
+.table_desc_box p{
+  padding:;
+  font-size:15px;
+  color:#333;
+  color: #555966;
+  font-family: 'Open Sans', sans-serif
+}
